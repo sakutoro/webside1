@@ -1,0 +1,127 @@
+header {
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+    background-color: ghostwhite;
+}
+.logo {
+    display: flex;
+    color: blue;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+}
+.main1 {
+    background-image: url(../img/pengin\ back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    font-size: 50px;
+    padding: 60px;
+}
+.main1 h1 {
+    padding: 50px;
+    padding-left: 500px;
+    font-size: 60px;
+}
+.text {
+    padding-left: 680px;
+}
+.text li {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.botton-box {
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.botton {
+    height: 60px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: rgb(17, 93, 235 );
+    opacity: 0.8;
+}
+.botton:hover {
+    background-image: url(../img/penguin\ botton.jpg);
+    color: rgb(218, 21, 63);
+    background-size: 90px 60px;
+}
+.main2 {
+   
+}
+.contena {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+ }
+h2 {
+    padding: 30px;
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+}
+.contena div img {
+    height: 300px;
+    width: 300px;
+    border: 3px solid snow;
+}
+.contena div {
+    margin-right: 30px;
+    background-color: gray;
+    padding: 20px;
+}
+.contena div:last-child {
+    margin-right: 0px;
+}
+.contena div p {
+    text-align: center;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100px;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.footer-logo img {
+    width: 70px;
+    height: 70px;
+}
+.footer-logo {
+   display: flex;
+   align-items: center;
+   padding-right: 10px;
+}
+
+.toiawase {
+    display: flex;
+    text-align: center;justify-content: center;
+
+}
+.div {
+    text-align: center; 
+}
+input:hover {
+    transition: all 1s ease;
+    background-color: blue;
+}
+
