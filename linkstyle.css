@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% 1fr;
+    grid-template-columns: 1fr 40%;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "header header"
+    "main1 main2";   
+    
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: header;
+}
+
+
+/* main img {
+    grid-area: main1;
+   
+} */
+img {
+    height: 100%;
+    width: 100%;
+    animation: spin 3s ease;
+}
+
+@keyframes spin {
+    0% {
+        transform: scale(.3);
+    }
+    50% {
+        transform: scale(.6) rotate(-45deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
